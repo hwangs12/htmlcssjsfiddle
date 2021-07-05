@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/mylearning/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f942eb377.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body onload="navNone()">
+    <header id="top">
+        <h1>Welcome to my Matrix</h1>
+        <p>Hello, I am an Architect of this channel. It may look ugly but it is my own playground so bear with
+            me!
+            You will also see a slow improvement of the design as you scroll down.
+        </p>
+    </header>
+    <section class="boxing">
+        <h3>Border Styling</h3>
+        <div id=one class="borders">
+            <p>You can style your border as you like</p>
+        </div>
+        <div id=two class="borders">
+            <p>You can color one side of border!</p>
+        </div>
+        <div id=three class="borders">
+            <p>Border styling can be of any order. <br>Thickness, type, and color can be styled as long as you mention
+                it in
+                CSS</p>
+        </div>
+    </section>
+    <section class="boxing paddding">
+        <h3>Padding Styling</h3>
+        <div id="paddingsize1" class="padding">
+            <p>It is a space between your content and border</p>
+        </div>
+        <div id="paddingsize2" class="padding">
+            <p>You can increase padding on one side</p>
+        </div>
+        <div id="paddingsize3" class="padding">
+            <p>You can widen further</p>
+        </div>
+    </section>
+    <section id="blocking" class="boxing">
+        <h3>Making Blocks in-line</h3>
+        <div id="blocking1" class="block">
+            <p>You can</p>
+        </div>
+        <div id="blocking2" class="block">
+            <p>Make Blocks</p>
+        </div>
+        <div id="blocking3" class="block">
+            <p>In-line</p>
+        </div>
+    </section>
+    <section id="opacity" class="boxing">
+        <h3>What is Opacity?</h3>
+        <p>How is it different from rgba last element?</p>
+        <div id="img1" class="box">
+            <p>Am I readable? Opacity adjusted.</p>
+        </div>
+        <div id="img2" class="box">
+            <p>Am I readable? RGBA adjusted</p>
+        </div>
+    </section>
+
+    <section id="hoverhover">
+        <h3>Playing with Hover and Transition</h3>
+        <div class="circle" id="circle1"><span>I</span></div>
+        <div class="circle" id="circle2"><span>A</span></div>
+        <div class="circle" id="circle3"><span>M</span></div>
+        <div class="circle" id="circle4"><span>S</span></div>
+        <div class="circle" id="circle5"><span>Q</span></div>
+        <div class="circle" id="circle6"><span>U</span></div>
+        <div class="circle" id="circle7"><span>A</span></div>
+        <div class="circle" id="circle8"><span>R</span></div>
+        <div class="circle" id="circle9"><span>E</span></div>
+    </section>
+
+    <section id="transform">
+        <h3>Playing with Transform</h3>
+        <div class="square">Moving Left</div>
+        <div class="square">Rotating</div>
+        <div class="square">Moving Right</div>
+    </section>
+
+    <section id="background">
+        <h3>Some nice background images</h3>
+        <div id="backgroundimages">
+            <div class="images" id="image1">
+                <p>I am covered</p>
+            </div>
+            <div class="images" id="image2">
+                <p>I am covered</p>
+            </div>
+            <div class="images" id="image3">
+                <p>I am contained</p>
+            </div>
+            <div class="images" id="image4">
+                <p>I am centered</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="photos">
+        <h3 style="width: 100%">More Images: Click "Gallery"</h3>
+        <form action="/gallery">
+            <button id="gallery">Gallery</button>
+        </form>
+    </section>
+
+    <div class="buttonScrollContainer">
+        <p>Click to scroll
+            <button class="scroll-btn" onClick="document.getElementById('flexflex').scrollIntoView()">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </p>
+    </div>
+
+    <div class="breakpage"></div>
+
+    <section id="flexflex">
+        <h3>Some flexbox</h3>
+        <div class="flexbox" id="flexbox1">
+            <div style="background-color: #d8f8b7;">1</div>
+            <div style="background-color: #8ab6d6;">2</div>
+            <div style="background-color: #f8a488;">3</div>
+            <div style="background-color: #c67ace;">4</div>
+            <div style="background-color: #fb3640;">5</div>
+            <div style="background-color: #fdca40;">6</div>
+            <div style="background-color: #845460;">7</div>
+            <div style="background-color: #ff8882;">8</div>
+        </div>
+        <div class="flexbox" id="flexbox2">
+            <div style="background-color: #d8f8b7;">1</div>
+            <div style="background-color: #8ab6d6;">2</div>
+            <div style="background-color: #f8a488;">3</div>
+            <div style="background-color: #c67ace;">4</div>
+            <div style="background-color: #fb3640;">5</div>
+            <div style="background-color: #fdca40;">6</div>
+            <div style="background-color: #845460;">7</div>
+            <div style="background-color: #ff8882;">8</div>
+        </div>
+        <div class="flexbox" id="flexbox3">
+            <div style="background-color: #d8f8b7;">1</div>
+            <div style="background-color: #8ab6d6;">2</div>
+            <div style="background-color: #f8a488;">3</div>
+            <div style="background-color: #c67ace;">4</div>
+            <div style="background-color: #fb3640;">5</div>
+            <div style="background-color: #fdca40;">6</div>
+            <div style="background-color: #845460;">7</div>
+            <div style="background-color: #ff8882;">8</div>
+        </div>
+        <div class="flexbox" id="flexbox4">
+            <div style="background-color: #d8f8b7;">1</div>
+            <div style="background-color: #8ab6d6;">2</div>
+            <div style="background-color: #f8a488;">3</div>
+            <div style="background-color: #c67ace;">4</div>
+            <div style="background-color: #fb3640;">5</div>
+            <div style="background-color: #fdca40;">6</div>
+            <div style="background-color: #845460;">7</div>
+            <div style="background-color: #ff8882;">8</div>
+        </div>
+        <div class="flexbox" id="flexbox5">
+            <div style="background-color: #d8f8b7;">1</div>
+            <div style="background-color: #8ab6d6;">2</div>
+            <div style="background-color: #f8a488;">3</div>
+            <div style="background-color: #c67ace;">4</div>
+            <div style="background-color: #fb3640;">5</div>
+            <div style="background-color: #fdca40;">6</div>
+            <div style="background-color: #845460;">7</div>
+            <div style="background-color: #ff8882;">8</div>
+        </div>
+        <div class="buttonScrollContainer">
+            <p>Click to scroll
+                <button class="scroll-btn" onClick="document.getElementById('pricingPanel').scrollIntoView()">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+            </p>
+        </div>
+    </section>
+
+    <div class="breakpage"></div>
+
+    <h3 style="margin-top: 50px; margin-bottom: 50px; text-align: center;">Pricing Panel</h3>
+
+    <section id="pricingPanel">
+
+
+        <div class="panel pricing-table">
+
+            <div class="pricing-plan">
+                <img src="/mylearning/icons/icon1.jpg" alt="" class="pricing-img">
+                <h2 class="pricing-header">Natto</h2>
+                <ul class="pricing-features">
+                    <li class="pricing-features-item">Custom Dish</li>
+                    <li class="pricing-features-item">Best comfort food with great source of protein</li>
+                </ul>
+                <span class="pricing-price">$2.99</span>
+                <a href="#/" class="pricing-button">Sign up</a>
+            </div>
+
+            <div class="pricing-plan">
+                <img src="/mylearning/icons/icon2.jpg" alt="" class="pricing-img">
+                <h2 class="pricing-header">With Rice</h2>
+                <ul class="pricing-features">
+                    <li class="pricing-features-item">Size of a bowl</li>
+                    <li class="pricing-features-item">Combination of rice, natto, and green onion on top</li>
+                </ul>
+                <span class="pricing-price">$5.99</span>
+                <a href="#/" class="pricing-button is-featured">Free trial</a>
+            </div>
+
+            <div class="pricing-plan">
+                <img src="/mylearning/icons/icon3.jpg" alt="" class="pricing-img">
+                <h2 class="pricing-header">Rice and Tuna</h2>
+                <ul class="pricing-features">
+                    <li class="pricing-features-item">CUSTOM SASHIMI</li>
+                    <li class="pricing-features-item">Best flavor with sashimi on bowl</li>
+                </ul>
+                <span class="pricing-price">$8.99</span>
+                <a href="#/" class="pricing-button">Free trial</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <h3 style="margin: 50px 0px 0px 0px; text-align: center;">This is the end of the page. <br>
+        <br>Please click button below to browse.
+    </h3>
+
+    <div class="buttonScrollContainer" id="navToggleContainer">
+        <p>Click to Navigation Bar
+            <button type="button" class="scroll-btn" id="special-btn" onClick="expandtoNav()"
+                style="text-align:center; padding-left: 5px; font-size: 1em;">
+                on
+            </button>
+        </p>
+    </div>
+
+    <section id="responsiveNav">
+
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">Top</a>
+                </li>
+                <li>
+                    <a href="javascript: document.body.scrollIntoView(false);">Bottom</a>
+                </li>
+                <li>
+                    <a href="/">Front Page</a>
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li>
+                    <a href="../bootstrap/index.html">Bootstrap</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+            </ul>
+            <ul class="nav-list">
+                <li>
+                    <a href="https://github.com/hwangs12" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sungjunhwang" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+
+    <script src="/mylearning/script.js"></script>
+</body>
+
+</html>
